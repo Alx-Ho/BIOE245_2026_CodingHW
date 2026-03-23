@@ -1,5 +1,7 @@
 # UCSF BIOE245 2026 Homework: Pathology Image Classification
 
+My responses are in `hw_responses.md`
+
 In this assignment, we explore the task of using ResNet-18 to perform pathology image classification. We use the PathMNIST dataset from MedMNIST [1], which is included as a submodule in this repository.
 
 ## Setup Instructions
