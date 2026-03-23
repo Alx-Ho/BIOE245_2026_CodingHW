@@ -1,0 +1,100 @@
+{
+  "run_dir": "/scratch/hw/pathmnist/260323_091229",
+  "dataset_npz": "/data/pathmnist/pathmnist.npz",
+  "split_counts": {
+    "train": 89996,
+    "val": 10004,
+    "test": 7180
+  },
+  "image_shape": [
+    28,
+    28,
+    3
+  ],
+  "n_classes": 9,
+  "scalar_tags": [
+    "test_acc",
+    "test_auc",
+    "test_loss",
+    "train_acc",
+    "train_auc",
+    "train_loss",
+    "train_loss_logs",
+    "val_acc",
+    "val_auc",
+    "val_loss"
+  ],
+  "num_scalar_curves": 10,
+  "test_accuracy_from_csv": 0.8949860724233983,
+  "roc_auc_micro": 0.988263475609283,
+  "roc_auc_macro": 0.9847217772895205,
+  "selected_examples": {
+    "0": {
+      "correct_idx": 7,
+      "wrong_idx": 486
+    },
+    "2": {
+      "correct_idx": 20,
+      "wrong_idx": 17
+    },
+    "3": {
+      "correct_idx": 37,
+      "wrong_idx": 640
+    },
+    "4": {
+      "correct_idx": 1,
+      "wrong_idx": 38
+    },
+    "5": {
+      "correct_idx": 19,
+      "wrong_idx": 15
+    },
+    "6": {
+      "correct_idx": 8,
+      "wrong_idx": 48
+    },
+    "7": {
+      "correct_idx": 49,
+      "wrong_idx": 35
+    },
+    "8": {
+      "correct_idx": 0,
+      "wrong_idx": 3
+    }
+  },
+  "selected_classes": [
+    0,
+    2,
+    3,
+    4,
+    5
+  ],
+  "class_names": {
+    "0": "adipose",
+    "1": "background",
+    "2": "debris",
+    "3": "lymphocytes",
+    "4": "mucus",
+    "5": "smooth muscle",
+    "6": "normal colon mucosa",
+    "7": "cancer-associated stroma",
+    "8": "colorectal adenocarcinoma epithelium"
+  },
+  "generated_figures": [
+    "/home/alex/BIOE245_2026_CodingHW/figures/training_curves.png",
+    "/home/alex/BIOE245_2026_CodingHW/figures/test_roc_curves.png",
+    "/home/alex/BIOE245_2026_CodingHW/figures/class_examples_correct_incorrect.png"
+  ],
+  "example_image_files": [
+    "/home/alex/BIOE245_2026_CodingHW/figures/class_0_correct_idx_7.png",
+    "/home/alex/BIOE245_2026_CodingHW/figures/class_0_wrong_idx_486.png",
+    "/home/alex/BIOE245_2026_CodingHW/figures/class_2_correct_idx_20.png",
+    "/home/alex/BIOE245_2026_CodingHW/figures/class_2_wrong_idx_17.png",
+    "/home/alex/BIOE245_2026_CodingHW/figures/class_3_correct_idx_37.png",
+    "/home/alex/BIOE245_2026_CodingHW/figures/class_3_wrong_idx_640.png",
+    "/home/alex/BIOE245_2026_CodingHW/figures/class_4_correct_idx_1.png",
+    "/home/alex/BIOE245_2026_CodingHW/figures/class_4_wrong_idx_38.png",
+    "/home/alex/BIOE245_2026_CodingHW/figures/class_5_correct_idx_19.png",
+    "/home/alex/BIOE245_2026_CodingHW/figures/class_5_wrong_idx_15.png"
+  ]
+}
